@@ -243,4 +243,3 @@ class Spore {
     circle(this.x,this.y,this.size);
   }
 }
-
