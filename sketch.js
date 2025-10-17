@@ -239,7 +239,8 @@ class Spore {
   }
 
   show(){
-    fill(255,241,239,this.alpha);
+    fill(255,250,255,this.alpha);
     circle(this.x,this.y,this.size);
   }
 }
+
