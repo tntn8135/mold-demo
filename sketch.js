@@ -128,10 +128,10 @@ function keyPressed() {
       tempCanvas.ellipse(eye.x * scaleFactor, eye.y * scaleFactor, (eye.eyeSize/3) * scaleFactor);
     }
 
-    // 텍스트 이미지도 포함해서 저장 (원하는 경우)
+    // 텍스트 이미지도 포함해서 저장
     tempCanvas.image(textImg, tempCanvas.width/2 - (textImg.width * scaleFactor)/2, tempCanvas.height/2 - (textImg.height * scaleFactor)/2, textImg.width * scaleFactor, textImg.height * scaleFactor);
 
-    save(tempCanvas, 'Mold_poster_highres.png');
+    save(tempCanvas, 'Mold_Interaction_Poster.png');
   }
 }
 
